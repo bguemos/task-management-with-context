@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #151515;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.form {
+  list-style-type: none;
+}
+
+.remove {
+  background-color: red;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.check {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 1px 2px #151515;
+}
